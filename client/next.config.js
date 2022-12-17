@@ -5,9 +5,6 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  env:{
-    OPENAI_API_KEY: "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"
-  }
 }
 
 module.exports = nextConfig

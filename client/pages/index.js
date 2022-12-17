@@ -37,12 +37,11 @@ export default function Home() {
       </Head>
     
         <Center>
-        <Flex align="center" justify="center" display="flex" direction="column">
-            <Heading color="white" fontSize={{base:"20px",lg:"88px"}}>Image Generator</Heading>
+        <Flex display="flex" justifyContent="center" alignItems="center" direction="column">
+            <Heading color="white" fontSize={{sm:"40px",lg:"88px"}}>Image Generator</Heading>
             <Divider/>
         <form onSubmit={onSubmit}>
           <Input mt={10}
-     
             focusBorderColor='pink.400'
             color='pink.300'
             type="text"
@@ -54,9 +53,12 @@ export default function Home() {
           />
           <Button mt={10} colorScheme="red" variant="solid" type="submit">Generate Image</Button>
         </form>
-          <Box justify='center'>
-            <Text mt={10}  color="white">Result:</Text>
+        <Box>
+     
+        <Text mt={10}  color="white">Result:</Text>
+
             <Image src={result} alt="Generated image"  boxShadow="2xl" boxSize="600px"/>
+ 
           </Box>
           </Flex>
           </Center>
