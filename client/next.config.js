@@ -6,7 +6,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   env:{
-    OPENAI_API_KEY: "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"
+    OPENAI_API_KEY: "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"
   }
 }
 
