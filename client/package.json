@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.10.5",
     "@next/font": "13.0.7",
     "babel-eslint": "^10.1.0",
+    "dotenv": "^16.0.3",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "framer-motion": "^7.10.2",
