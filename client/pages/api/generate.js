@@ -11,7 +11,7 @@ const configuration = new Configuration({
 	const response = await openai.createImage({
 	prompt: generatePrompt(req.body.image) ,
 	n: 1,
-	size: "1024x1024",
+	size: "512x512",
   });
 
   console.log(response.data.data[0].url)
